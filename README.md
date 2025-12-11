@@ -1,5 +1,4 @@
 
-```markdown
 # AstroCamp 2024 🚀
 
 Modern landing page for AstroTech's AstroCamp event at ESI Algiers.
