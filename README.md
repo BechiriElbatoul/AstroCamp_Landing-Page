@@ -35,7 +35,4 @@ Visit: `http://localhost:8000`
 
 Bechiri Elbatoul - AstroTech Challenge 2024
 
-## License
-
-MIT
 ```
