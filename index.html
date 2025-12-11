@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroCamp 2024 | AstroTech ESI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo/astrotech-logo.png" alt="AstroTech Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">AstroCamp 2024</h1>
+            <p class="hero-slogan">Knowledge is a treasure meant to be shared</p>
+            <div class="hero-details">
+                <span class="hero-date">📅 February 2024</span>
+                <span class="hero-location">📍 ESI Algiers</span>
+                <span class="hero-time">🕐 12:00 PM - 5:00 PM</span>
+            </div>
+            <a href="#register" class="cta-button">Register Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About AstroCamp</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>What is AstroCamp?</h3>
+                    <p>AstroCamp is a series of hands-on workshops designed to help students take their first steps into the world of technology. Whether you're interested in development, design, AI, cybersecurity, or other growing tech fields, these workshops will guide you through the essentials.</p>
+                    
+                    <h3>Why AstroCamp?</h3>
+                    <p>Knowledge is a treasure meant to be shared — and AstroTech is opening the vault. We believe in empowering students with practical skills that matter in today's tech landscape.</p>
+                    
+                    <h3>Who Should Attend?</h3>
+                    <p>AstroCamp is perfect for students who are curious about technology and eager to learn. No prior experience required — just bring your enthusiasm and willingness to explore!</p>
+                    
+                    <h3>What You'll Gain</h3>
+                    <p>Throughout the event, participants will learn from experienced students, explore various tech domains, and ask the questions they've always wanted to. Build skills, gain confidence, and connect with people who share a passion for technology.</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/astrocamp-1.jpg" alt="AstroCamp Workshop">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="program">
+        <div class="container">
+            <h2 class="section-title">Event Program</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-time">12:00 PM - 12:30 PM</div>
+                    <div class="timeline-content">
+                        <h3>🎉 Welcome & Registration</h3>
+                        <p>Check-in and event introduction</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-time">12:30 PM - 1:30 PM</div>
+                    <div class="timeline-content">
+                        <h3>💻 Web Development Workshop</h3>
+                        <p>Learn the fundamentals of building modern websites</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-time">1:30 PM - 2:30 PM</div>
+                    <div class="timeline-content">
+                        <h3>🎨 UI/UX Design Workshop</h3>
+                        <p>Discover the principles of creating user-friendly interfaces</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-time">2:30 PM - 3:00 PM</div>
+                    <div class="timeline-content">
+                        <h3>☕ Break & Networking</h3>
+                        <p>Connect with fellow participants and mentors</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-time">3:00 PM - 4:00 PM</div>
+                    <div class="timeline-content">
+                        <h3>🤖 AI & Machine Learning Basics</h3>
+                        <p>Introduction to artificial intelligence concepts</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-time">4:00 PM - 5:00 PM</div>
+                    <div class="timeline-content">
+                        <h3>🔒 Cybersecurity Essentials</h3>
+                        <p>Learn how to protect yourself in the digital world</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="register" class="registration">
+        <div class="container">
+            <h2 class="section-title">Register for AstroCamp</h2>
+            <p class="registration-subtitle">Secure your spot — registration is required!</p>
+            
+            <form id="registrationForm" class="registration-form">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <span class="error-message"></span>
+                </div>
+                
+                <button type="submit" class="submit-button">Complete Registration</button>
+            </form>
+            
+            <div id="successMessage" class="success-message" style="display: none;">
+                <h3>✅ Registration Successful!</h3>
+                <p>Thank you for registering. We'll send you more details via email.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <h2 class="section-title">Event Location & Details</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-item">
+                        <h3>📅 Date</h3>
+                        <p>February 2024</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🕐 Time</h3>
+                        <p>12:00 PM - 5:00 PM</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>📍 Venue</h3>
+                        <p>ESI Algiers</p>
+                        <p>École nationale Supérieure d'Informatique</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🎯 Format</h3>
+                        <p>On-Site Event</p>
+                        <p>Registration Required</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AstroTech</h3>
+                    <p>Empowering students through technology education</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Email: contact@astrotech-esi.com</p>
+                    <p>Phone: +213 XXX XXX XXX</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" target="_blank">Facebook</a>
+                        <a href="#" target="_blank">Instagram</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AstroTech ESI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
