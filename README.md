@@ -1,10 +1,16 @@
 
 ```markdown
-# AstroCamp 2024 Landing Page
+# AstroCamp 2024 🚀
 
-Landing page for AstroTech's AstroCamp event - hands-on tech workshops at ESI Algiers.
+Modern landing page for AstroTech's AstroCamp event at ESI Algiers.
 
-## 🚀 Quick Start
+## About
+
+AstroCamp is a series of hands-on tech workshops covering web development, UI/UX design, AI, and cybersecurity.
+
+## Getting Started
+
+Clone and run locally:
 
 ```
 git clone https://github.com/BechiriElbatoul/astrocamp-landing-page.git
@@ -12,27 +18,25 @@ cd astrocamp-landing-page
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000` in your browser.
+Visit: `http://localhost:8000`
 
-## 📁 Structure
+## Tech Stack
 
+- HTML5
+- CSS3
+- JavaScript
+
+## Event Info
+
+📅 February 2024  
+📍 ESI Algiers  
+⏰ 12:00 PM - 5:00 PM
+
+## Author
+
+Bechiri Elbatoul - AstroTech Challenge 2024
+
+## License
+
+MIT
 ```
-├── index.html
-├── css/style.css
-├── js/script.js
-└── assets/
-```
-
-## 🛠️ Built With
-
-HTML, CSS, JavaScript
-
-## 📅 Event Details
-
-**February 2024** | ESI Algiers | 12:00 PM - 5:00 PM
-
----
-
-Made by Bechiri Elbatoul for AstroTech Challenge 2024
-```
-
