@@ -31,7 +31,5 @@ Visit: `http://localhost:8000`
 📍 ESI Algiers  
 ⏰ 12:00 PM - 5:00 PM
 
-## Author
 
-Bechiri Elbatoul - AstroTech Challenge 2024
 
